@@ -1,0 +1,10 @@
+.env
+app/temp/
+__pycache__/
+*.pyc
+.pytest_cache/
+.agentrules
+venv/
+.venv/
+env/
+.DS_Store

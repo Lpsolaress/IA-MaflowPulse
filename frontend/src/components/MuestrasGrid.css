@@ -1,0 +1,120 @@
+.muestras-grid-container {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.muestras-grid-titulo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #5b403d;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  margin-bottom: 1rem;
+}
+
+.muestras-grid-titulo .material-symbols-outlined {
+  font-size: 16px;
+}
+
+.muestras-grid-row {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+  width: 100%;
+}
+
+/* Caja base 80x80 */
+.muestra-box {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+/* 1. Caja de muestra activa (con datos) */
+.muestra-box-active {
+  border: 1px solid #e4beb9;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.muestra-box-active:hover {
+  border: 2px solid #E53935;
+}
+
+.muestra-badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: 20px;
+  height: 20px;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.muestra-duracion {
+  color: #000000;
+  font-weight: 900;
+  font-size: 20px;
+  font-family: "JetBrains Mono", monospace;
+  margin-top: 10px;
+}
+
+/* 2. Cajas vacías de relleno */
+.muestra-box-empty {
+  border: 1px solid #e4beb9;
+  opacity: 0.5;
+}
+
+/* 3. Caja de Añadir (+) */
+.muestra-box-add {
+  border: 2px dashed #BDBDBD;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.muestra-box-add:hover {
+  border-color: #E53935;
+}
+
+.muestra-add-icon {
+  font-size: 24px;
+  color: #BDBDBD;
+  transition: color 0.2s ease;
+}
+
+.muestra-box-add:hover .muestra-add-icon {
+  color: #E53935;
+}
+
+/* Scrollbar styling */
+.muestras-grid-row::-webkit-scrollbar {
+  height: 4px;
+}
+.muestras-grid-row::-webkit-scrollbar-track {
+  background: transparent;
+}
+.muestras-grid-row::-webkit-scrollbar-thumb {
+  background: #e4beb9;
+  border-radius: 10px;
+}
