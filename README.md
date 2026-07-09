@@ -1,3 +1,44 @@
+
+
+# 🏭 MaflowPulse — AI-Powered Industrial Video Analysis
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+![Gemini 2.0](https://img.shields.io/badge/Gemini_2.0-4285F4?style=flat&logo=google&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
+
+**MaflowPulse** eliminates the stopwatch from industrial time studies. Upload a video of an assembly line operator, and **Google Gemini 2.0 Flash** automatically detects every work element, measures real execution time, and generates a structured chronometric breakdown — ready to export.
+
+Built for automotive manufacturing environments where precision and speed matter. No MTM/TMU systems — just direct video analysis with AI.
+
+## ✨ What it does
+
+| Feature | Description |
+|---|---|
+| 🎥 Video upload | Upload any assembly line video directly from the browser |
+| 🤖 AI analysis | Gemini 2.0 Flash detects work elements and measures execution time automatically |
+| ⏱ Chronometric output | Structured breakdown of each task with real durations |
+| 📊 Excel export | Download the full analysis as a formatted spreadsheet |
+| ⚡ Fast backend | FastAPI processes video and returns results in seconds |
+
+## 🛠 Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Frontend | React · Vite · Tailwind CSS |
+| Backend | Python · FastAPI |
+| AI | Google Gemini 2.0 Flash |
+| Export | Excel (openpyxl) |
+
+---
+
+> ↓ Full documentation in Spanish below · Documentación completa en español a continuación ↓
+
+---
+
+
 # MAFLOWPULSE
 
 > Cronometraje industrial por inteligencia artificial para líneas de montaje de automoción.
